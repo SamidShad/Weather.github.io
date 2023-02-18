@@ -34,3 +34,9 @@ search_btn.addEventListener("click", () => {
     }
   });
 });
+
+
+document.addEventListener("contextmenu", (event) => {
+  event.preventDefault();
+});
+
