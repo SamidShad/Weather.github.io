@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/logo.png" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+
+    <div class="nav_area">
+      <nav class="navbar">
+        <div class="logo_area">
+          <a href="index.html"
+            ><img src="images/logo.png" class="logo" alt="logo"
+          /></a>
+          <p class="logo_text">Weather</p>
+        </div>
+        <div class="search_area">
+          <input
+            type="text"
+            placeholder="Enter your city name"
+            name="usersearch"
+            class="search_input"
+          />
+          <lord-icon
+            src="https://cdn.lordicon.com/osbjlbsb.json"
+            trigger="click"
+            class="search_btn"
+          >
+          </lord-icon>
+        </div>
+      </nav>
+    </div>
+
+    <!-- SECTIONS -->
+
+    <header class="header_page">
+      <div class="weaher_card_area">
+        <div class="card">
+          <h1 class="destination_text"></h1>
+          <div class="temp_area">
+            <img src="images/cloud.png" class="could_img" alt="clouds" />
+            <div class="data_text_container">
+              <p class="temp_text"></p>
+              <p class="desc_text"></p>
+              <p class="wind_text"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="forecast_page">
+      <div class="text_container">
+        <h1 class="forecast_page_title">Forecast</h1>
+      </div>
+    </section>
+
+    <script src="https://cdn.lordicon.com/fudrjiwc.js"></script>
+    <script
+      src="https://kit.fontawesome.com/4f6c794eb6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
